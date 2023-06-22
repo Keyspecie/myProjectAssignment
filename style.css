@@ -1,0 +1,450 @@
+  /* Styling for the navigation bar */
+  body {
+
+    @font-face {
+        font-family: 'Gilory Medium'; /* Choose a name for your font family */
+        src: url('./font/Gilroy-Medium.ttf') format('truetype'); /* Replace 'YourFontFileName-Regular' with the actual regular font file name */
+        font-weight: 500;
+        /* font-style: medium; */
+      }
+    @font-face {
+        font-family: 'Gilory Semi-Bold'; /* Choose a name for your font family */
+        src: url('./font/Gilroy-SemiBold.ttf') format('truetype'); /* Replace 'YourFontFileName-Regular' with the actual regular font file name */
+        font-weight: 600;
+        /* font-style: ; */
+      }
+    @font-face {
+        font-family: 'Gilory Bold'; /* Choose a name for your font family */
+        src: url('./font/Gilroy-Bold.ttf') format('truetype'); /* Replace 'YourFontFileName-Regular' with the actual regular font file name */
+        font-weight: 700;
+        /* font-style: bold; */
+      }
+     
+     /* Styling for the navigation bar */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .header {
+        background-color: transparent;
+        color: #141414;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+      }
+      
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+      
+      .logo img {
+        height: 40px;
+        margin-right: 10px;
+      }
+      
+      .middle-text {
+        display: flex;
+        align-items: center;
+      }
+      
+      .menu-item {
+        margin-right: 20px; /* Adjust the value as per your preference */
+        font-family: 'Gilory Medium', sans-serif;
+        font-size: 18px;
+      }
+      
+      .login {
+        display: flex;
+        align-items: center;
+      }
+      .login p {
+        font-family: 'Gilory Semi-Bold', sans-serif;
+        font-size: 16px;
+        color: #0065FE;
+      }
+      .toggle-menu {
+        display: none;
+      }
+      .menu-list {
+        display: none;
+      }
+      .menu-item.features i {
+        margin-left: 2px;
+        color: #141414;
+        font-size: 15px;
+        cursor: pointer;
+      }
+      .menu-item.url {
+       
+        color: #0065FE;
+       
+      }
+      
+      .signup-btn {
+        background-color: #0065FE;
+        color: #FFFFFF;
+        border: none;
+        padding: 12px 24px 12px 24px;
+       
+        border-radius: 100px;
+        cursor: pointer;
+        margin-left: 20px;
+        font-family: 'Gilory Semi-Bold', sans-serif;
+        font-size: 16px;
+      }
+    
+      .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    
+      }
+      
+      .hero h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-family: 'Gilory Bold', sans-serif;
+        color: #141414;
+        text-align: center;
+        position: relative;
+       
+      }
+    
+    
+      h1 img {
+        display: block;
+        margin: 0 auto;
+      }
+      
+      .hero h5 {
+        font-size: 18px;
+        /* margin-bottom: 20px; */
+        text-align: center;
+        font-family: 'Gilory Medium', sans-serif;
+        color: #141414;
+       
+      }
+    
+      .hero .url-text{
+        color: #0065FE;
+      }
+      
+      .button-container {
+        margin-top: 20px;
+      }
+      
+      .button {
+        display: inline-block;
+       
+       
+        
+        text-decoration: none;
+       
+        background-color: #0065FE;
+        color: #FFFFFF;
+        border: none;
+        padding: 12px 24px 12px 24px;
+       
+        border-radius: 100px;
+        cursor: pointer;
+        margin-right: 20px;
+        font-family: 'Gilory Semi-Bold', sans-serif;
+        font-size: 16px;
+      }
+      .learnmore {
+       
+       
+        
+        text-decoration: none;
+        color: #0065FE;
+        border: none;
+        
+        cursor: pointer;
+        
+        font-family: 'Gilory Semi-Bold', sans-serif;
+        font-size: 16px;
+      }
+      
+      .button:hover {
+        background-color: #1976d2;
+      }
+    
+      .sub-hero-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        padding: 0 20px;
+        position: relative;
+      }
+    
+      .container {
+        position: relative;
+        z-index: 1;
+        width: 500px;
+        height: 200px;
+        background-color: #f1f1f1;
+        border-radius: 24px;
+        border: 0.5px solid #005AE2;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+       
+        
+      }
+    
+      .container .content {
+        padding: 0 20px;/* Add left and right padding */
+      }
+    
+      .background-image {
+        position: absolute;
+        /* bottom: 0; */
+        left: 50%;
+        transform: translateX(-65%);
+        width: 100%;
+        height: 230px; /* Set the desired height of the background image */
+        background: url('img/sub-hero-bg.png') no-repeat center bottom;
+        z-index: -1;
+      }
+      
+      .content {
+        padding: 20px;
+        text-align: center;
+      }
+      .content img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    
+      .content h1 {
+        text-align: center;
+        font-family: 'Gilory Medium', sans-serif;
+        font-size: 16px;
+        color:#141414;
+        margin-bottom: 10px;
+      }
+    
+      .possibility-body{
+        padding: 0px 70px;
+      }
+    
+      .possibility{
+        display: flex;
+      flex-direction: row;
+      }
+    
+      .possibility{
+        font-family: 'Gilory Bold', sans-serif;
+        font-size: 40px;
+        color:#141414;
+        display: flex;
+        justify-content: center;
+      }
+      .row{
+       
+            display: flex;
+            justify-content: space-between;
+      
+      }
+     
+    
+       .sub-row{
+        font-family: 'Gilory Medium', sans-serif;
+        font-size: 16px !important;
+        color:#141414;
+        
+    
+      }
+      .top-row{
+        font-family: 'Gilory Semi-Bold', sans-serif;
+        font-size: 32px !important;
+        line-height: 0.9;
+    
+       
+      }
+    
+      .item {
+        flex: 1;
+        padding: 10px;
+        font-size: 40px;
+        color:#141414;
+        padding: 0;
+        /* border: 1px solid #ccc; */
+      }
+      
+      .large {
+        flex-grow: 2;
+        font-family: 'Gilory Bold', sans-serif;
+        font-size: 40px;
+        color:#141414;
+      }
+    
+        /* .row1{
+    
+      
+      } */
+    
+      .item .span-possibility{
+        color: #1976d2;
+      }
+    
+      /* .possibility .row{
+    
+      } */
+      
+    
+    nav {
+        background-color: #fff;
+        color: #333;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    nav a {
+        color: #333;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+    
+    .Vector {
+        /* margin-right: 70px; */
+        width: 24px;
+        height: 24px;
+    }
+    
+    .Vector {
+    
+        
+    }
+    
+    .dropdown {
+        position: relative;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown-content a {
+        color: #333;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .right-items {
+        margin-left: auto;
+    }
+    
+    .login-btn {
+        margin-right: 15px;
+        padding: 8px 12px;
+        background-color: #f9f9f9;
+        color: #333;
+        border: none;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+    
+    .try-btn {
+        padding: 8px 12px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+    
+    .button {
+        border-radius: 10px;
+        text-align: center;
+        border-color: blue;
+        border-width: 1px;
+        color: blue;
+        background-color: white;
+    }
+    
+    .button2 {
+        border-radius: 10px;
+        background-color: blue;
+        color: white;
+        text-align: center;
+        border-width: 1px;
+        border-style: none;
+    }
+    
+    .sub-text {
+        text-align: center;
+        text-decoration: underline;
+        margin: 10px;
+        padding: 24px;
+    }
+    .button3 {
+        border-radius: 10px;
+        background-color: blue;
+        color: white;
+        text-align: center;
+        border-width: 1px;
+        border-style: none;
+    }
+        /* Media Queries */
+        @media screen and (max-width: 768px) {
+            .menu-item {
+                display: none;
+              }
+              .toggle-menu {
+                display: block;
+                cursor: pointer;
+              }
+            .header {
+              flex-direction: column;
+              align-items: flex-start;
+            }
+            .menu-list {
+                display: none;
+                flex-direction: column;
+              }
+        
+              .menu-list.show {
+                display: flex;
+              }
+            
+            .middle-text {
+              margin-top: 10px;
+            }
+          }
+          
+          @media screen and (max-width: 480px) {
+            .logo img {
+              height: 30px;
+            }
+            
+            .signup-btn {
+              font-size: 12px;
+              padding: 6px 12px;
+            }
+          }  
+    
